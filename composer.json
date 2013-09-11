@@ -1,0 +1,24 @@
+{
+    "name": "lonnieezell/menus",
+    "description": "A flexible, module-ready, low-level solution for menus.",
+    "license": "MIT",
+    "keywords": [
+        "codeigniter", "library", "menus", "navigation"
+    ],
+    "authors": [
+        {
+            "name": "Lonnie Ezell",
+            "email": "lonnieezell@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "http://lonnieezell.github.io/menus/",
+    "support": {
+        "issues": "http://lonnieezell.github.io/menus/issues",
+        "source": "http://lonnieezell.github.io/menus/"
+    },
+    "type": "codeigniter-library",
+    "require": {
+        "compwright/codeigniter-installers": "*"
+    }
+}
