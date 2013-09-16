@@ -64,6 +64,12 @@ class Menus {
 
         get_instance()->load->helper('url');
 
+        // If no cache library is loaded, then load up a dummy cache
+        if ( ! class_exists('CI_Cache'))
+        {
+            get_instance()->load->driver('cache', array('adapter' => 'dummy'));
+        }
+
         log_message('debug', "Menu Class Initialized");
     }
 
